@@ -3,6 +3,9 @@
 一个基于 Vue 3 + TypeScript + UnoCSS + Socket.IO 的 AI 聊天应用，集成了 Gemini Nano AI 模型。
 
 ## 🚀 快速开始
+- `Chrome 138` 以上版本，开启 `chrome://flags/#prompt-api-for-gemini-nano`
+- `chrome://components` **Optimization Guide On Device Model** 更新到最新
+- [硬件要求](https://developer.chrome.com/docs/ai/get-started?hl=zh-cn#hardware)
 
 ### 安装依赖
 
