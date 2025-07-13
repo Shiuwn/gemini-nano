@@ -7,6 +7,8 @@
 - `chrome://components` **Optimization Guide On Device Model** 更新到最新
 - [硬件要求](https://developer.chrome.com/docs/ai/get-started?hl=zh-cn#hardware)
 
+> 参考 [Gemini Nano 文档](https://developer.chrome.com/docs/ai/prompt-api?hl=zh-cn)
+
 ### 安装依赖
 
 ```bash
