@@ -1,0 +1,32 @@
+{
+  "name": "gemini-nano",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently --kill-others --names frontend,backend --prefix-colors blue,green \"vite\" \"PORT=8080 node ./server/index.js\"",
+    "dev:frontend": "vite",
+    "dev:backend": "PORT=8080 node ./server/index.js",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "postinstall": "cd server && npm install"
+  },
+  "dependencies": {
+    "mitt": "^3.0.1",
+    "simple-chromium-ai": "^0.1.1",
+    "socket.io-client": "^4.8.1",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@unocss/preset-attributify": "^66.3.3",
+    "@unocss/preset-icons": "^66.3.3",
+    "@unocss/preset-uno": "^66.3.3",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "concurrently": "^9.2.0",
+    "typescript": "~5.8.3",
+    "unocss": "^66.3.3",
+    "vite": "^7.0.4",
+    "vue-tsc": "^2.2.12"
+  }
+}
